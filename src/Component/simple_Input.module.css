@@ -1,0 +1,39 @@
+.Form{
+  margin-top: 100px;
+  margin-left:30%;
+  border: 2px black solid;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  padding: 32px;
+  border-radius: 10px;
+  font: inherit;
+
+}
+
+
+.button{
+  font: inherit;
+  background-color: #240370;
+  color: white;
+  border: 1px solid #240370;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input{
+  margin-bottom: 15px;
+}
+
+.errorText{
+  color: red;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
